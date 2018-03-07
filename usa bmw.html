@@ -1,0 +1,477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>MergedID3a76484318d</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- GeoChart generated in R 3.3.2 by googleVis 0.6.2 package -->
+<!-- Wed Dec  6 23:40:24 2017 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGeoChartID3a73011953e () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"?",
+1
+],
+[
+"AK",
+48
+],
+[
+"AL",
+377
+],
+[
+"AOL",
+1
+],
+[
+"AR",
+146
+],
+[
+"AZ",
+946
+],
+[
+"CA",
+12838
+],
+[
+"CO",
+946
+],
+[
+"CT",
+819
+],
+[
+"DC",
+454
+],
+[
+"DE",
+164
+],
+[
+"FL",
+5453
+],
+[
+"GA",
+1838
+],
+[
+"HI",
+266
+],
+[
+"IA",
+158
+],
+[
+"ID",
+89
+],
+[
+"IL",
+2361
+],
+[
+"IN",
+532
+],
+[
+"KS",
+218
+],
+[
+"KY",
+222
+],
+[
+"LA",
+352
+],
+[
+"MA",
+1685
+],
+[
+"MD",
+1319
+],
+[
+"ME",
+62
+],
+[
+"MI",
+1058
+],
+[
+"MN",
+753
+],
+[
+"MO",
+569
+],
+[
+"MS",
+124
+],
+[
+"MT",
+41
+],
+[
+"NC",
+1370
+],
+[
+"ND",
+32
+],
+[
+"NE",
+110
+],
+[
+"NH",
+206
+],
+[
+"NJ",
+3154
+],
+[
+"NM",
+154
+],
+[
+"NV",
+450
+],
+[
+"NY",
+5675
+],
+[
+"OH",
+1203
+],
+[
+"OK",
+242
+],
+[
+"OR",
+784
+],
+[
+"PA",
+2282
+],
+[
+"RI",
+167
+],
+[
+"SC",
+556
+],
+[
+"SD",
+28
+],
+[
+"TN",
+628
+],
+[
+"TX",
+4375
+],
+[
+"UT",
+269
+],
+[
+"VA",
+1691
+],
+[
+"VT",
+75
+],
+[
+"WA",
+1226
+],
+[
+"WI",
+474
+],
+[
+"WV",
+99
+],
+[
+"WY",
+29
+] 
+];
+data.addColumn('string','state');
+data.addColumn('number','Freq');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataTableID3a7525d3219 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"CA",
+12838
+],
+[
+"NY",
+5675
+],
+[
+"FL",
+5453
+],
+[
+"TX",
+4375
+],
+[
+"NJ",
+3154
+],
+[
+"IL",
+2361
+],
+[
+"PA",
+2282
+],
+[
+"GA",
+1838
+],
+[
+"VA",
+1691
+],
+[
+"MA",
+1685
+],
+[
+"NC",
+1370
+],
+[
+"MD",
+1319
+],
+[
+"WA",
+1226
+],
+[
+"OH",
+1203
+] 
+];
+data.addColumn('string','state');
+data.addColumn('number','Freq');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGeoChartID3a73011953e() {
+var data = gvisDataGeoChartID3a73011953e();
+var options = {};
+options["width"] = 600;
+options["height"] = 400;
+options["region"] = "US";
+options["displayMode"] = "regions";
+options["resolution"] = "provinces";
+options["colorAxis"] = {colors:['pink','purple']};
+options["backgroundColor"] = "lightblue";
+
+
+    var chart = new google.visualization.GeoChart(
+    document.getElementById('GeoChartID3a73011953e')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartTableID3a7525d3219() {
+var data = gvisDataTableID3a7525d3219();
+var options = {};
+options["allowHtml"] = true;
+options["width"] = 300;
+options["height"] = 400;
+
+
+    var chart = new google.visualization.Table(
+    document.getElementById('TableID3a7525d3219')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "geochart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartGeoChartID3a73011953e);
+})();
+function displayChartGeoChartID3a73011953e() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "table";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTableID3a7525d3219);
+})();
+function displayChartTableID3a7525d3219() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID3a73011953e"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID3a7525d3219"></script>
+ 
+<table border="0">
+<tr>
+<td>
+
+<!-- divChart -->
+  
+<div id="GeoChartID3a73011953e" 
+  style="width: 600; height: 400;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+  
+<div id="TableID3a7525d3219" 
+  style="width: 300; height: 400;">
+</div>
+
+</td>
+</tr>
+</table>
+ <div><span>Data: various &#8226; Chart ID: <a href="Chart_MergedID3a76484318d.html">MergedID3a76484318d</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.6.2</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.3.2 (2016-10-31) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; Data Policy: See individual charts
+</span></div>
+</body>
+</html>
