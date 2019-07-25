@@ -8,7 +8,7 @@
 ## DATA MANIPULATION
 We combined the "Serverall" Dataset and "Lookup" Datasets to a new Dataset and then then investigated into the variable named "post event list" which records user's behavoirs on the website. We found that event 201 indicated lead form submit success so we converted the variable in the dataset named “Lead Completed_new forms" to "Lead" dataset and "Lead + Non-lead" dataset.
 
-**Data Dictionary :**
+**Data Dictionary**
 
      * user.ID: a unique string for each user
      * Lead.Complete: indicator of lead / non-lead
@@ -35,7 +35,7 @@ We combined the "Serverall" Dataset and "Lookup" Datasets to a new Dataset and t
      * Model.Selected: model the user selected
 
 ### DATA MODELING
-* Logistic Regression
+**Logistic Regression**
 
 Changing category variables into dummy variables to put in the logistics regression and test variables validity.
 Using stepwise regression deleted insignificant variables and recalculated model reliability index(AUC) to increase 
@@ -50,22 +50,24 @@ Using 10-fold cross-validation to double check the model:
      * Calculate the mean accuracy and maximum accuracy rate in the 10-fold cross validation.
      * Get an average accuracy rate of 76.74% for the 10-fold cross-validation.
 
-* Random Forest
+**Random Forest**
 
 We have applied the Random Forest Classification algorithm to make some predictions about the possibility of 
 being leads.Then we looked at relative importance by plotting the mean decrease in Gini calculated across all trees.
 ROC curve is used to identify the accuracy of the test and accuracy is measured by the area under the ROC curve. 
 
 ## WEBSITE FEATURES & RECOMMENDATIONS 
-* UI & UX
-* Highlight these features in the homepage
-* Guide users to experience these features through UX design 
-* Create more interactive features that engage users emotionally and visually
+
+     * UI & UX
+     * Highlight these features in the homepage
+     * Guide users to experience these features through UX design 
+     * Create more interactive features that engage users emotionally and visually
 
 **ONLINE MARKETING**
-* Place/Utilize these features in the online marketing campaigns (e.g. Email marketing)
-* Utilize more visual techniques
-* VR & AR
+
+     * Place/Utilize these features in the online marketing campaigns (e.g. Email marketing)
+     * Utilize more visual techniques
+     * VR & AR
 
 
 
