@@ -1,5 +1,5 @@
 # BMW INNOVATION CHALLENGE
-**Adobe Clickstream Analytics for BMW**
+### Adobe Clickstream Analytics for BMW
 ## OBJECTIVE  
 * Using analytics to understand the prospective car buyer’s browsing and site usage behavior 
 * Identifying opportunities to convert visitors to leads that will convert to purchase.
@@ -34,7 +34,7 @@ We combined the "Serverall" Dataset and "Lookup" Datasets to a new Dataset and t
      * Visit.Ref.Type: search engines, email, bookmarked etc.
      * Model.Selected: model the user selected
 
-### DATA MODELING
+## DATA MODELING
 **Logistic Regression**
 
 Changing category variables into dummy variables to put in the logistics regression and test variables validity.
