@@ -1,40 +1,37 @@
 # BMW Innovation Challenge
 Adobe Clickstream Analytics for BMW
-## Our Missions: 
-Use analytics to understand the prospective car buyer’s browsing and site usage behavior 
-Identify opportunities to convert visitors to leads that will convert to purchase.
-## Aim:
-Develop an algorithm that will predict which visitors are likely to convert to a lead and with what degree of confidence
+## Objective  
+•  Using analytics to understand the prospective car buyer’s browsing and site usage behavior 
+•  Identifying opportunities to convert visitors to leads that will convert to purchase.
+•  Developing an algorithm that will predict which visitors are likely to convert to a lead and with what degree of confidence
 
-## Overview of Data Manipulation
-We combined the "Serverall" Dataset and "Lookup" Datasets to a new Dataset and then then investigate into the variable named "post event list" 
-which records user's behavoirs on the website.We found that event 201 indicated lead form submit success.And we converted the variable in the 
-dataset named “Lead Completed_new forms" to "Lead" dataset and "Lead + Non-lead" dataset.
+## Data Manipulation
+We combined the "Serverall" Dataset and "Lookup" Datasets to a new Dataset and then then investigated into the variable named "post event list" which records user's behavoirs on the website. We found that event 201 indicated lead form submit success so we converted the variable in the dataset named “Lead Completed_new forms" to "Lead" dataset and "Lead + Non-lead" dataset.
 
 ### Variables list:
-user.ID: a unique string for each user
-Lead.Complete: indicator of lead / non-lead
-Visit.Num: number of visits
-BYO: build your own model
-Reserve: reserve a vehicle
-Order.Now: order a vehicle
-Test.Drive: test Drive
-Get.Quote: get a quote
-Special.Offers: exclusive / special Offers
-Gallery: browse gallery 
-Specifications: spec & features 
-Lease: lease vehicle
-Compare: compare with different brands
-BMW.Value: what can drivers get after purchase
-BMW.Exp: e.g. driving schools, delivery programs
-Estimate.Pay: estimate of payment
-Add.Vehicle: indicates if the user account is created
-Geo.City: city
-Geo.Region: region 
-Geo.Country: country
-First.Hit.Referrer: Google, Facebook, BMW etc.
-Visit.Ref.Type: search engines, email, bookmarked etc.
-Model.Selected: model the user selected
+* user.ID: a unique string for each user
+* Lead.Complete: indicator of lead / non-lead
+* Visit.Num: number of visits
+* BYO: build your own model
+* Reserve: reserve a vehicle
+* Order.Now: order a vehicle
+* Test.Drive: test Drive
+* Get.Quote: get a quote
+* Special.Offers: exclusive / special Offers
+* Gallery: browse gallery 
+* Specifications: spec & features 
+* Lease: lease vehicle
+* Compare: compare with different brands
+* BMW.Value: what can drivers get after purchase
+* BMW.Exp: e.g. driving schools, delivery programs
+* Estimate.Pay: estimate of payment
+* Add.Vehicle: indicates if the user account is created
+* Geo.City: city
+* Geo.Region: region 
+* Geo.Country: country
+* First.Hit.Referrer: Google, Facebook, BMW etc.
+* Visit.Ref.Type: search engines, email, bookmarked etc.
+* Model.Selected: model the user selected
 
 ### Logistic Regression
 Changing category variables into dummy variables to put in the logistics regression and test variables validity.
