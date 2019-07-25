@@ -9,6 +9,7 @@
 We combined the "Serverall" Dataset and "Lookup" Datasets to a new Dataset and then then investigated into the variable named "post event list" which records user's behavoirs on the website. We found that event 201 indicated lead form submit success so we converted the variable in the dataset named “Lead Completed_new forms" to "Lead" dataset and "Lead + Non-lead" dataset.
 
 **Data Dictionary :**
+
      * user.ID: a unique string for each user
      * Lead.Complete: indicator of lead / non-lead
      * Visit.Num: number of visits
