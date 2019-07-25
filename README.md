@@ -8,7 +8,7 @@
 ## DATA MANIPULATION
 We combined the "Serverall" Dataset and "Lookup" Datasets to a new Dataset and then then investigated into the variable named "post event list" which records user's behavoirs on the website. We found that event 201 indicated lead form submit success so we converted the variable in the dataset named “Lead Completed_new forms" to "Lead" dataset and "Lead + Non-lead" dataset.
 
-### DATA DICTIONARY
+**Data Dictionary**
 * user.ID: a unique string for each user
 * Lead.Complete: indicator of lead / non-lead
 * Visit.Num: number of visits
@@ -34,7 +34,7 @@ We combined the "Serverall" Dataset and "Lookup" Datasets to a new Dataset and t
 * Model.Selected: model the user selected
 
 ### DATA MODELING
-#### Logistic Regression
+* Logistic Regression
 Changing category variables into dummy variables to put in the logistics regression and test variables validity.
 Using stepwise regression deleted insignificant variables and recalculated model reliability index(AUC) to increase 
 the credibility of model.Variable significant increased after stepwise regression.AUC increased after deleting 
@@ -43,12 +43,12 @@ our model and gained an accuracy rate of 69.52%.
 
 Using 10-fold cross-validation to double check the model:
 
-* Separate the dataset into 10 sample randomly.
-* Using same regression method and accuracy calculation methods to check the accuracy rate of 10-fold.
-* Calculate the mean accuracy and maximum accuracy rate in the 10-fold cross validation.
-* Get an average accuracy rate of 76.74% for the 10-fold cross-validation.
+   * Separate the dataset into 10 sample randomly.
+   * Using same regression method and accuracy calculation methods to check the accuracy rate of 10-fold.
+   * Calculate the mean accuracy and maximum accuracy rate in the 10-fold cross validation.
+   * Get an average accuracy rate of 76.74% for the 10-fold cross-validation.
 
-#### Random Forest
+* Random Forest
 We have applied the Random Forest Classification algorithm to make some predictions about the possibility of 
 being leads.Then we looked at relative importance by plotting the mean decrease in Gini calculated across all trees.
 ROC curve is used to identify the accuracy of the test and accuracy is measured by the area under the ROC curve. 
